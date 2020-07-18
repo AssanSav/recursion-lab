@@ -38,3 +38,4 @@ function includesNumber(array, number) {
   if (array[0] === number) return true
   else if (array.length === 0) return false
   else return includesNumber(array.slice(1), number)
+}
